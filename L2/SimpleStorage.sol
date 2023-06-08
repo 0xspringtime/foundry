@@ -9,6 +9,7 @@ contract SimpleStorage {
         string name;
     }
 
+    //dynamic array to add arbitrary number of people
     Person[] public listofPeople;
 
     mapping(string => uint256) public nameToFavoriteNumber;
